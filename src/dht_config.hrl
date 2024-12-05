@@ -1,0 +1,2 @@
+-define(m, 16).
+-define(log_folder, "dht").
