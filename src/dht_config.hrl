@@ -1,2 +1,2 @@
 -define(m, 16).
--define(log_folder, "dht").
+-define(log_folder, "dht_").

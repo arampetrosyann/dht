@@ -5,9 +5,9 @@
 
 -module(dht_app).
 -include("dht_config.hrl").
--export([start/2, stop/1]).
+-export([start/0, stop/0]).
 
-start(_Type, _Args) ->
+start() ->
     % @TODO set number of nodes here
     NodeCount = 20,
     Folder = ?log_folder ++ integer_to_list(NodeCount),
@@ -16,5 +16,5 @@ start(_Type, _Args) ->
 % @TODO setup the ring here
 .
 
-stop(_State) ->
+stop() ->
     ok.

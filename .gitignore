@@ -1,4 +1,3 @@
-.rebar3
 _build
 _checkouts
 _vendor
@@ -12,9 +11,7 @@ _vendor
 ebin
 log
 erl_crash.dump
-.rebar
 logs
 .idea
 *.iml
-rebar3.crashdump
 *~

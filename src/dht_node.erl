@@ -4,7 +4,8 @@
     init/1,
     to_binary/1,
     hash_to_id/1,
-    integer_to_hex/1
+    integer_to_hex/1,
+    log/1
 ]).
 
 -import(lists, [map/2]).
@@ -59,8 +60,8 @@ init(State) ->
             % Remove
             io:write(Identifier),
 
-            % @TODO Check where to store the data
-            IsInRange = true,
+            % @TODO Check where to store the data (should be boolean)
+            IsInRange = Hash,
 
             if
                 IsInRange == true ->

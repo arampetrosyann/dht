@@ -6,9 +6,9 @@ DHT application
 Build
 -----
 
-    $ rebar3 compile
+    $ make all
 
 Run
 -----
 
-    $ rebar3 shell
+    $ make run
